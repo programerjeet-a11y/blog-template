@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A clean, responsive blog template made with Tailwind CSS."
+    />
+    <title>Blog Template</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-sans text-slate-800 antialiased">
+    <header class="border-b border-slate-100 bg-white">
+      <nav
+        aria-label="Main navigation"
+        class="mx-auto flex max-w-6xl items-center justify-between gap-5 px-5 py-5 sm:px-8"
+      >
+        <a
+          href="#home"
+          class="text-lg font-extrabold tracking-tight text-pink-700"
+        >
+          Blog<span class="text-slate-800">folio</span>
+        </a>
+        <div
+          class="flex items-center gap-4 text-xs font-semibold text-slate-600 sm:gap-8 sm:text-sm"
+        >
+          <a class="transition hover:text-pink-700" href="#home">Home</a>
+          <a class="transition hover:text-pink-700" href="#stories">Stories</a>
+          <a class="transition hover:text-pink-700" href="#subscribe"
+            >Subscribe</a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="relative overflow-hidden bg-slate-50">
+        <div
+          class="mx-auto grid max-w-6xl items-center gap-10 px-5 py-14 sm:px-8 sm:py-20 lg:grid-cols-2 lg:gap-16 lg:py-24"
+        >
+          <div class="order-2 max-w-xl lg:order-1">
+            <p
+              class="mb-4 text-xs font-bold uppercase tracking-[0.22em] text-pink-700"
+            >
+              Ideas, inspiration &amp; more
+            </p>
+            <h1
+              class="max-w-lg text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-5xl"
+            >
+              Various versions have evolved
+            </h1>
+            <div class="mt-5 h-1 w-12 rounded-full bg-pink-600"></div>
+            <p
+              class="mt-6 max-w-lg text-sm leading-7 text-slate-600 sm:text-base"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              tincidunt, tellus eget aliquam viverra, justo sapien malesuada
+              lectus, sed commodo neque nulla at erat. Find a fresh perspective
+              and a little inspiration for your day.
+            </p>
+            <a
+              href="#stories"
+              class="mt-7 inline-flex rounded-md bg-pink-700 px-6 py-3 text-sm font-bold text-white shadow-sm transition hover:bg-pink-800 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2"
+            >
+              Read our stories
+            </a>
+          </div>
+          <div class="order-1 flex justify-center lg:order-2 lg:justify-end">
+            <div
+              role="img"
+              aria-label="Featured story image placeholder"
+              class="aspect-square w-56 rounded-full bg-slate-300 shadow-sm sm:w-72 lg:w-[23rem]"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        aria-labelledby="intro-heading"
+        class="mx-auto max-w-6xl px-5 py-14 sm:px-8 sm:py-20"
+      >
+        <h2
+          id="intro-heading"
+          class="mb-12 text-center text-2xl font-extrabold tracking-tight text-slate-900"
+        >
+          Lorem Ipsum Is
+        </h2>
+        <div class="grid items-center gap-8 md:grid-cols-2 md:gap-12">
+          <div
+            role="img"
+            aria-label="Story image placeholder"
+            class="aspect-[4/3] w-full bg-neutral-300"
+          ></div>
+          <div class="max-w-xl">
+            <p
+              class="mb-2 text-xs font-bold uppercase tracking-[0.18em] text-pink-700"
+            >
+              Featured article
+            </p>
+            <h3 class="text-2xl font-extrabold leading-snug text-slate-900">
+              Lorem Ipsum Simply Dummy Text
+            </h3>
+            <p class="mt-4 text-sm leading-7 text-slate-600">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              posuere, neque quis accumsan interdum, justo nunc porta lorem,
+              vitae sollicitudin mauris urna vitae mi. Discover stories that
+              make everyday moments meaningful.
+            </p>
+            <a
+              href="#stories"
+              class="mt-5 inline-flex rounded-md bg-pink-700 px-5 py-2.5 text-sm font-bold text-white transition hover:bg-pink-800 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2"
+            >
+              Read more
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section
+        aria-labelledby="discover-heading"
+        class="mx-auto max-w-6xl px-5 pb-16 sm:px-8 sm:pb-20"
+      >
+        <h2
+          id="discover-heading"
+          class="mb-12 text-center text-2xl font-extrabold tracking-tight text-slate-900"
+        >
+          Enrich Yourself
+        </h2>
+        <div class="grid items-center gap-8 md:grid-cols-2 md:gap-12">
+          <div class="max-w-xl">
+            <p
+              class="mb-2 text-xs font-bold uppercase tracking-[0.18em] text-pink-700"
+            >
+              A little inspiration
+            </p>
+            <h3 class="text-2xl font-extrabold leading-snug text-slate-900">
+              Lorem Ipsum Lorem Ipsum Lorem
+            </h3>
+            <p class="mt-4 text-sm leading-7 text-slate-600">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+              accumsan et viverra justo commodo. Curabitur non nulla sit amet
+              nisl tempus convallis quis ac lectus.
+            </p>
+            <a
+              href="#stories"
+              class="mt-5 inline-flex rounded-md bg-pink-700 px-5 py-2.5 text-sm font-bold text-white transition hover:bg-pink-800 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2"
+            >
+              Read more
+            </a>
+          </div>
+          <div
+            role="img"
+            aria-label="Inspiration image placeholder"
+            class="aspect-[4/3] w-full bg-neutral-300"
+          ></div>
+        </div>
+      </section>
+
+      <section
+        id="stories"
+        aria-labelledby="stories-heading"
+        class="bg-slate-100"
+      >
+        <div class="mx-auto max-w-6xl px-5 py-14 sm:px-8 sm:py-20">
+          <div class="mx-auto mb-10 max-w-xl text-center">
+            <p
+              class="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-pink-700"
+            >
+              The reading list
+            </p>
+            <h2
+              id="stories-heading"
+              class="text-2xl font-extrabold leading-snug tracking-tight text-slate-900 sm:text-3xl"
+            >
+              Lorem Ipsum Is Simply Dummy Text Of The Printing And
+            </h2>
+          </div>
+          <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            <article
+              class="overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+            >
+              <div
+                role="img"
+                aria-label="Article image placeholder"
+                class="aspect-[16/8] bg-slate-200"
+              ></div>
+              <div class="p-5">
+                <p class="text-xs font-semibold text-pink-700">
+                  Lifestyle <span class="px-1 text-slate-300">•</span> 5 min
+                  read
+                </p>
+                <h3 class="mt-2 text-lg font-bold leading-snug text-slate-900">
+                  Lorem Ipsum Dolor Sit Amet
+                </h3>
+                <p class="mt-2 text-sm leading-6 text-slate-600">
+                  A fresh take on everyday life, thoughtful ideas, and the
+                  little things that make a difference.
+                </p>
+                <a
+                  href="#subscribe"
+                  class="mt-4 inline-block text-sm font-bold text-pink-700 underline decoration-pink-300 underline-offset-4 hover:text-pink-900"
+                  >Read story</a
+                >
+              </div>
+            </article>
+            <article
+              class="overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+            >
+              <div
+                role="img"
+                aria-label="Article image placeholder"
+                class="aspect-[16/8] bg-slate-200"
+              ></div>
+              <div class="p-5">
+                <p class="text-xs font-semibold text-pink-700">
+                  Ideas <span class="px-1 text-slate-300">•</span> 4 min read
+                </p>
+                <h3 class="mt-2 text-lg font-bold leading-snug text-slate-900">
+                  Explore Something New Today
+                </h3>
+                <p class="mt-2 text-sm leading-6 text-slate-600">
+                  Curabitur aliquet quam id dui posuere blandit. Read on for a
+                  new point of view.
+                </p>
+                <a
+                  href="#subscribe"
+                  class="mt-4 inline-block text-sm font-bold text-pink-700 underline decoration-pink-300 underline-offset-4 hover:text-pink-900"
+                  >Read story</a
+                >
+              </div>
+            </article>
+            <article
+              class="overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+            >
+              <div
+                role="img"
+                aria-label="Article image placeholder"
+                class="aspect-[16/8] bg-slate-200"
+              ></div>
+              <div class="p-5">
+                <p class="text-xs font-semibold text-pink-700">
+                  Culture <span class="px-1 text-slate-300">•</span> 6 min read
+                </p>
+                <h3 class="mt-2 text-lg font-bold leading-snug text-slate-900">
+                  Stories Worth Sharing
+                </h3>
+                <p class="mt-2 text-sm leading-6 text-slate-600">
+                  Read the stories, meet the people, and find inspiration in the
+                  world around you.
+                </p>
+                <a
+                  href="#subscribe"
+                  class="mt-4 inline-block text-sm font-bold text-pink-700 underline decoration-pink-300 underline-offset-4 hover:text-pink-900"
+                  >Read story</a
+                >
+              </div>
+            </article>
+            <article
+              class="overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+            >
+              <div
+                role="img"
+                aria-label="Article image placeholder"
+                class="aspect-[16/8] bg-slate-200"
+              ></div>
+              <div class="p-5">
+                <p class="text-xs font-semibold text-pink-700">
+                  Wellbeing <span class="px-1 text-slate-300">•</span> 3 min
+                  read
+                </p>
+                <h3 class="mt-2 text-lg font-bold leading-snug text-slate-900">
+                  Make Space For What Matters
+                </h3>
+                <p class="mt-2 text-sm leading-6 text-slate-600">
+                  Small steps can make a big difference. Start with a moment to
+                  pause and reflect.
+                </p>
+                <a
+                  href="#subscribe"
+                  class="mt-4 inline-block text-sm font-bold text-pink-700 underline decoration-pink-300 underline-offset-4 hover:text-pink-900"
+                  >Read story</a
+                >
+              </div>
+            </article>
+            <article
+              class="overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+            >
+              <div
+                role="img"
+                aria-label="Article image placeholder"
+                class="aspect-[16/8] bg-slate-200"
+              ></div>
+              <div class="p-5">
+                <p class="text-xs font-semibold text-pink-700">
+                  Travel <span class="px-1 text-slate-300">•</span> 7 min read
+                </p>
+                <h3 class="mt-2 text-lg font-bold leading-snug text-slate-900">
+                  Find Your Next Adventure
+                </h3>
+                <p class="mt-2 text-sm leading-6 text-slate-600">
+                  There is always somewhere new to explore, even when you begin
+                  right at home.
+                </p>
+                <a
+                  href="#subscribe"
+                  class="mt-4 inline-block text-sm font-bold text-pink-700 underline decoration-pink-300 underline-offset-4 hover:text-pink-900"
+                  >Read story</a
+                >
+              </div>
+            </article>
+            <article
+              class="overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+            >
+              <div
+                role="img"
+                aria-label="Article image placeholder"
+                class="aspect-[16/8] bg-slate-200"
+              ></div>
+              <div class="p-5">
+                <p class="text-xs font-semibold text-pink-700">
+                  Creativity <span class="px-1 text-slate-300">•</span> 5 min
+                  read
+                </p>
+                <h3 class="mt-2 text-lg font-bold leading-snug text-slate-900">
+                  Let Your Ideas Take Shape
+                </h3>
+                <p class="mt-2 text-sm leading-6 text-slate-600">
+                  A collection of simple thoughts to help you stay curious and
+                  create something wonderful.
+                </p>
+                <a
+                  href="#subscribe"
+                  class="mt-4 inline-block text-sm font-bold text-pink-700 underline decoration-pink-300 underline-offset-4 hover:text-pink-900"
+                  >Read story</a
+                >
+              </div>
+            </article>
+          </div>
+          <div class="mt-9 text-center">
+            <a
+              href="#stories"
+              class="inline-flex rounded-md bg-pink-700 px-7 py-3 text-sm font-bold text-white transition hover:bg-pink-800 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 focus:ring-offset-slate-100"
+            >
+              View all stories
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section
+        aria-labelledby="testimonial-heading"
+        class="mx-auto max-w-4xl px-5 py-14 text-center sm:px-8 sm:py-20"
+      >
+        <h2
+          id="testimonial-heading"
+          class="text-2xl font-extrabold tracking-tight text-slate-900"
+        >
+          Lorem Ipsum Is Sin
+        </h2>
+        <div
+          class="mx-auto mt-8 flex max-w-3xl items-center justify-between gap-4"
+        >
+          <span
+            aria-hidden="true"
+            class="hidden h-9 w-9 shrink-0 items-center justify-center rounded-full bg-slate-100 text-xl text-slate-500 sm:flex"
+            >‹</span
+          >
+          <blockquote class="text-sm leading-7 text-slate-600 sm:text-base">
+            <p>
+              Lorem ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+            <footer class="mt-5">
+              <p class="font-bold text-pink-700">— Jamie Taylor</p>
+              <p class="mt-1 text-xs text-slate-500">
+                Reader &amp; story lover
+              </p>
+            </footer>
+          </blockquote>
+          <span
+            aria-hidden="true"
+            class="hidden h-9 w-9 shrink-0 items-center justify-center rounded-full bg-slate-100 text-xl text-slate-500 sm:flex"
+            >›</span
+          >
+        </div>
+        <div
+          aria-label="Testimonial 1 of 3"
+          class="mt-6 flex justify-center gap-2"
+        >
+          <span class="h-2 w-5 rounded-full bg-pink-700"></span>
+          <span class="h-2 w-2 rounded-full bg-slate-300"></span>
+          <span class="h-2 w-2 rounded-full bg-slate-300"></span>
+        </div>
+      </section>
+
+      <section
+        id="subscribe"
+        aria-labelledby="subscribe-heading"
+        class="bg-pink-700"
+      >
+        <div
+          class="mx-auto max-w-4xl px-5 py-12 text-center text-white sm:px-8 sm:py-16"
+        >
+          <h2
+            id="subscribe-heading"
+            class="text-2xl font-extrabold leading-snug sm:text-3xl"
+          >
+            It is a long established fact
+            <span class="block">that a reader will be</span>
+          </h2>
+          <p class="mx-auto mt-3 max-w-xl text-sm leading-6 text-pink-100">
+            Get our latest stories and thoughtful reads delivered straight to
+            your inbox.
+          </p>
+          <form
+            action="#subscribe"
+            method="get"
+            class="mx-auto mt-7 flex max-w-xl flex-col gap-3 sm:flex-row"
+          >
+            <label for="email" class="sr-only">Your email address</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              required
+              placeholder="Your email address"
+              class="min-w-0 flex-1 rounded-md border border-white/60 bg-white px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-pink-200"
+            />
+            <button
+              type="submit"
+              class="rounded-md bg-white px-6 py-3 text-sm font-bold text-pink-700 transition hover:bg-pink-50 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-pink-700"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-white">
+      <div class="mx-auto max-w-6xl px-5 py-9 text-center sm:px-8">
+        <nav
+          aria-label="Footer navigation"
+          class="flex justify-center gap-7 text-xs font-semibold text-slate-500"
+        >
+          <a href="#home" class="hover:text-pink-700">Home</a>
+          <a href="#stories" class="hover:text-pink-700">Stories</a>
+          <a href="#subscribe" class="hover:text-pink-700">Subscribe</a>
+        </nav>
+        <div aria-label="Social media" class="mt-6 flex justify-center gap-3">
+          <a
+            href="#subscribe"
+            aria-label="Facebook"
+            class="flex h-9 w-9 items-center justify-center rounded-full bg-blue-700 text-sm font-bold text-white transition hover:bg-blue-800"
+            >f</a
+          >
+          <a
+            href="#subscribe"
+            aria-label="Instagram"
+            class="flex h-9 w-9 items-center justify-center rounded-full bg-sky-500 text-xs font-bold text-white transition hover:bg-sky-600"
+            >◎</a
+          >
+          <a
+            href="#subscribe"
+            aria-label="Twitter"
+            class="flex h-9 w-9 items-center justify-center rounded-full bg-cyan-500 text-sm font-bold text-white transition hover:bg-cyan-600"
+            >𝕏</a
+          >
+          <a
+            href="#subscribe"
+            aria-label="LinkedIn"
+            class="flex h-9 w-9 items-center justify-center rounded-full bg-emerald-500 text-xs font-bold text-white transition hover:bg-emerald-600"
+            >in</a
+          >
+        </div>
+        <p class="mt-6 text-xs leading-5 text-slate-500">
+          <a
+            href="#home"
+            class="font-semibold text-slate-700 hover:text-pink-700"
+            >Blogfolio</a
+          >
+          <span class="px-2 text-slate-300">|</span>
+          Stories and ideas for curious minds.
+        </p>
+        <p class="mt-3 text-xs text-slate-400">
+          © 2025 Blogfolio. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
